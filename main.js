@@ -34,7 +34,7 @@ app.use((req,res,next)=>{
 
 // set template engine
 app.set("view engine","ejs");
-
+// upload image
 app.use(express.static("uploads"));
 
 // // Define a simple route
